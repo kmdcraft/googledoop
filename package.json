@@ -1,0 +1,22 @@
+{
+  "name": "googledoop",
+  "version": "1.0.0",
+  "description": "Hi! Welcome to one of my projects for The Odin Project. This will be my attempt to recreate the Google home page with HTML/CSS/JS. Although the classic google search page may look simplistic, there is a lot going on behind the scenes.  For a basic re-creation though; html structure, form building, media incorporation, and css styling/positioning will be used.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmdcraft/googledoop.git"
+  },
+  "author": "kelly mac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmdcraft/googledoop/issues"
+  },
+  "homepage": "https://github.com/kmdcraft/googledoop#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
