@@ -1,8 +1,95 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: aquamarine;
+    color: black;
+    font-size: 14px;
+    height: 100vh;
+}
+
+.page-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+nav {
+    padding: 6px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+        margin: 0 10px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.nav-container {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.sub-container {
+    float: right;
+    padding-left: 32px;
+    padding-right: 4px;
+}
+
+#top {
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+
+    img {
+        margin-top: 50px;
+    }
+}
+
+#bottom {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 8vh;
+    font-size: 1.2em;
+
+    a {
+        text-decoration: none;
+        color: rgb(117, 117, 117);
+    }
+
+}
+
+.shoe {
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 30%;
+    flex-wrap: wrap;
+}
+
+.line1 {
+    flex-grow: 2;
+}
+
+.line2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.line3 {
+    display: flex;
+    justify-content: space-around;
 }
