@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/main.css">
     <title>Googledoop</title>
 </head>
@@ -33,8 +32,8 @@
                 </div>
             </div>
         </nav>
-        <section id="top" class="">
-            <div class="img">
+        <section id="top">
+            <div class="img-container">
                 <img src="media/logogoog.png" alt="Google logo">
             </div>
         </section>
@@ -42,9 +41,20 @@
             <form action="search" method="GET" role="search">
                 <div class="form-container">
                     <div class="search-bar">
-                        <div class="search-icon"></div>
-                        <div class="typing"></div>
-                        <div class="mic"></div>
+                        <div class="subsearch">
+                            <div>
+                                <img src="media/search_black_24dp.svg" id="search-icon" alt="search icon">
+                            </div>
+                            <div class="typing">
+                                <div id="spacing"></div>
+                                <input type="text" title="search" id="search-input">
+                            </div>
+                            <div class="mic">
+                                <div class="mic-container">
+                                        <img src="media/mic_black_24dp.svg" alt="microphone" class="mic-icon">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="btm-buttons">
                         <div class="btn-container">
