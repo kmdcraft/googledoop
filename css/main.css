@@ -74,11 +74,11 @@ nav {
     vertical-align: middle; }
 
 .app-icon {
-  width: 27px;
+  width: 24px;
   height: auto; }
 
 .profile-icon {
-  width: 38px;
+  width: 35px;
   height: auto; }
 
 #top {
@@ -109,7 +109,7 @@ nav {
   padding-top: 6px; }
 
 .search-bar {
-  width: auto;
+  width: 85vw;
   max-width: 584px;
   background: #fff;
   display: flex;
@@ -123,6 +123,7 @@ nav {
 .subsearch {
   flex: 1;
   display: flex;
+  justify-content: space-between;
   padding: 5px 8px 0 16px;
   padding-left: 14px; }
   .subsearch :nth-child(1) {
@@ -150,7 +151,8 @@ nav {
 #typing {
   display: flex;
   flex: 1;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  width: 200px; }
 
 #spacing {
   color: transparent;
@@ -160,7 +162,8 @@ nav {
   display: block;
   margin: 0;
   padding: 0;
-  align-items: stretch; }
+  align-items: stretch;
+  width: 100%; }
 
 #search-input {
   background-color: transparent;
@@ -201,19 +204,55 @@ nav {
   flex: 1 0 auto;
   display: flex;
   cursor: pointer;
-  align-items: center;
+  align-items: stretch;
   border: 0;
   background: transparent;
   outline: none;
   padding: 0 8px;
+  margin-right: 10px;
   width: 24px;
   line-height: 44px; }
 
 .mic-icon {
   height: 25px;
   width: auto;
-  vertical-align: middle;
-  opacity: 52%; }
+  opacity: 52%;
+  padding-top: 6px; }
+
+.btm-buttons {
+  height: 70px;
+  padding-top: 18px;
+  top: 53px; }
+
+.btn-container {
+  text-align: center; }
+
+.btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  font: 400 13.3333px Arial; }
 
 #bottom {
   flex-grow: 1; }
